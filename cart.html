@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cart</title>
+  <link rel="stylesheet" href="./cart.css" />
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav id="topbar">
+      <div id="left-menu">
+        <div id="logo"><a href="/1page.html"><span>Shop</span>lane<span id="URCART">YOUR CART</span></a></div>
+        
+        
+      </div>
+      <div id="search-wrapper">
+      
+      </div>
+      <div id="right-menu">
+        <div id="cart-wrapper">
+          <p id="cart-count">0</p>
+         
+            <img id="cartimg" src="https://cdn-icons-png.flaticon.com/512/60/60992.png"></img></a>
+        </div>
+        <img src="https://simg.nicepng.com/png/small/138-1388174_login-account-icon.png">
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="main-section">
+        <h1 id="main-heading">Checkout</h1>
+        <div id="content-wrapper">
+            <div id="card-list">
+                <h3 class="section-heading1">
+                    Total Items:
+                    <span id="differentcount">
+                        0
+                    </span>
+                </h3>
+            </div>
+            <div>
+                <h3 class="section-heading1">Total Amount</h3>
+                <p>
+                    Amount Rs: 
+                    <span id="total-amount">0</span>
+                </p>
+                <a id="href" href="order.html"><button onclick="orderPlaced()" id="btn-place-order">Place order</button></a>
+            </div>
+        </div>
+    </section>
+</main>
+  
+<footer id="footer">
+
+</footer>
+
+
+  <script src="./cart.js"> </script>
+</body>
+
+</html>

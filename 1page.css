@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&family=Poppins:wght@400;500;600&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url(https://m.media-amazon.com/images/I/91zzAMkVCUL._AC_UF1000,1000_QL80_.jpg); */
+}
+
+
+.section-heading1{
+    margin-left: 70px;
+    margin-top: 190px;
+}
+.section-heading{
+    margin-left: 70px;
+
+}
+
+.product-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4%;
+}
+
+.product-card{
+    width: 15%;
+    margin: 30px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-name{
+    margin: 0px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+}
+
+.product-brand{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+
+.product-price{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+}
+
+.product-details{
+    padding  : 0px 10px;
+    padding-top : 15px;
+}
+.owl-item {margin-right: 100px; background:powderblue;
+margin-top: 100px; }
+#imgcar{
+    width: 100px;
+    
+}
+.item{
+    width: 100px;
+    height: 400px;
+}
+
+
+/** to hide dots
+
+.owl-theme .owl-dots .owl-dot{ display:none!important;}
+
+**/
+
+
+    #topbar {
+        width: 100%;
+        box-shadow: 0 2px 5px #ccc;
+        /* background-color: white; */
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 16px 8%;
+    }
+    #left-menu {
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+    }
+    #search-wrapper {
+        width: 100%;
+        max-width: 400px;
+        position: relative;
+    }
+    #right-menu {
+        display: inline-flex;
+        justify-content: end;
+        align-items: center;
+    }
+    #cartimg{
+        width: 30px;
+    }
+    #right-menu > img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    #logo {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-right: 16px;
+    }
+
+    #logo > a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        margin-left: 32px;
+        text-transform: uppercase;
+    }
+    #left-menu > a {
+        text-decoration: none;
+        color: black;
+        margin-left: 32px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    #logo span {
+        font-weight: 800;
+    }
+    #search-box {
+        width: 100%;
+        border: 1px solid rgb(245, 242, 242);
+        background-color: rgb(245, 242, 242);
+        box-sizing: border-box;
+        padding: 10px 24px 8px 48px;
+        color: black;
+        outline: none;
+    }
+    #cart-wrapper {
+        position: relative;
+        margin-right: 32px;
+    }
+    #cart-count {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        font-weight: 600;
+        background-color: #009688;
+        color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: -12px;
+        right: -12px;
+    }
+    .owl-item {width: 128.906px; margin-right: 10px; background:powderblue; }
+
+
+/** to hide dots
+
+.owl-theme .owl-dots .owl-dot{ display:none!important;}
+
+**/
+footer{
+    width: 100%;
+    background-color: #1c1b1e;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top:  10px;
+    flex-wrap: wrap;
+}
+footer > div:first-of-type{
+    padding-left: 0;
+}
+footer > div{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#footer-heading{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.8;
+}
+   
+/* Place Order Place */
+.place-order-div{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.place-order-div h1{
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+    margin-top: 70px;
+}
+.place-order-div h3{
+    font-weight: 400;
+}
+.tick{
+    font-size: 100px;
+    color:rgb(20, 213, 20);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
